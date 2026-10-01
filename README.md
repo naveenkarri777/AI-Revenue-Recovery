@@ -1,6 +1,6 @@
 # AI Revenue Recovery
 
-An AI-powered platform that automatically detects failed payments, diagnoses the root cause, and runs a smart recovery pipeline — retrying, emailing customers, or escalating based on policy rules and LLM reasoning.
+An AI-powered platform that automatically detects failed payments, diagnoses the root cause, and runs a smart recovery pipeline ï¿½ retrying, emailing customers, or escalating based on policy rules and LLM reasoning.
 
 ## Project Structure
 
@@ -34,7 +34,7 @@ AI_Revenue_Recovery/
 
 ### 1. Clone the repo
 `ash
-git clone https://github.com/YOUR_USERNAME/AI_Revenue_Recovery.git
+git clone https://github.com/naveenkarri777/AI-Revenue-Recovery.git
 cd AI_Revenue_Recovery
 `
 
@@ -88,22 +88,22 @@ See ackend/.env.example for the full list.
 
 `
 Webhook / Ingest
-      ¦
+      ï¿½
       ?
   DETECT failed payment
-      ¦
+      ï¿½
       ?
   DIAGNOSE root cause (AI)
-      ¦
+      ï¿½
       ?
   DECIDE strategy (retry / email / escalate / stop)
-      ¦
+      ï¿½
       ?
   VALIDATE against policy guardrails
-      ¦
+      ï¿½
       ?
   ACT (execute strategy)
-      ¦
+      ï¿½
       ?
   MEASURE ? RECOVERED / ESCALATED / FAILED
 `
